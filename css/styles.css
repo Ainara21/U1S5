@@ -9,5 +9,44 @@ h1 {
   text-align: center;
   color: #333;
 }
+#listaUsuarios{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.user-card{
+  background-color: rgb(127, 142, 255);
+
+  
+  margin: 10px;
+}
+.infoPrincipal{
+  display: flex;
+  padding: 10px;
+  width: 500px;
+}
+.texto h2{
+  color: rgba(67, 13, 67, 0.716);
+}
+.infoPrincipal .texto{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  color: white;
+}
+.infoPrincipal p{
+  margin: 3px;
+}
+.infoPrincipal img{
+  width: 200px;
+  height: 200px;
+  margin-top: 55px;
+}
+.infoSec{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-bottom: 4px;
+}
 
 
